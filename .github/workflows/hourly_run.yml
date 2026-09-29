@@ -7,9 +7,8 @@ on:
 
 jobs:
   build:
-    runs-runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-      # Sürümleri v4 ve v5 olarak güncelledik (Node.js 24 uyumlu)
       - uses: actions/checkout@v4
       - name: Python Kur
         uses: actions/setup-python@v5
